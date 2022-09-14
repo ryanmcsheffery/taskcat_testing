@@ -1,0 +1,38 @@
+-----------------------------------------------------------------------------
+Region: us-east-1
+StackName: tCaT-taskcat-example-sqs-test-98e55060eb6942e79a8e526766eddfc1
+*****************************************************************************
+ResourceStatusReason:  
+The following resource(s) failed to create: [SiteBucket].
+*****************************************************************************
+*****************************************************************************
+Events:  
+TimeStamp                         ResourceStatus      ResourceType                LogicalResourceId                                               ResourceStatusReason
+--------------------------------  ------------------  --------------------------  --------------------------------------------------------------  ---------------------------------------------------------
+2022-09-13 18:49:23.462000+00:00  CREATE_FAILED       AWS::CloudFormation::Stack  tCaT-taskcat-example-sqs-test-98e55060eb6942e79a8e526766eddfc1  The following resource(s) failed to create: [SiteBucket].
+2022-09-13 18:49:22.205000+00:00  CREATE_COMPLETE     AWS::CodeBuild::Project     CodeBuildSetup
+2022-09-13 18:49:21.443000+00:00  CREATE_IN_PROGRESS  AWS::CodeBuild::Project     CodeBuildSetup                                                  Resource creation Initiated
+2022-09-13 18:49:19.472000+00:00  CREATE_IN_PROGRESS  AWS::CodeBuild::Project     CodeBuildSetup
+2022-09-13 18:49:19.403000+00:00  CREATE_COMPLETE     AWS::CodeBuild::Project     CodeBuildTaskCatTest
+2022-09-13 18:49:19.389000+00:00  CREATE_COMPLETE     AWS::CodeBuild::Project     CodeBuildCleanup
+2022-09-13 18:49:18.674000+00:00  CREATE_IN_PROGRESS  AWS::CodeBuild::Project     CodeBuildCleanup                                                Resource creation Initiated
+2022-09-13 18:49:18.549000+00:00  CREATE_IN_PROGRESS  AWS::CodeBuild::Project     CodeBuildTaskCatTest                                            Resource creation Initiated
+2022-09-13 18:49:16.685000+00:00  CREATE_COMPLETE     AWS::S3::Bucket             PipelineBucket
+2022-09-13 18:49:16.651000+00:00  CREATE_IN_PROGRESS  AWS::CodeBuild::Project     CodeBuildCleanup
+2022-09-13 18:49:16.647000+00:00  CREATE_IN_PROGRESS  AWS::CodeBuild::Project     CodeBuildTaskCatTest
+2022-09-13 18:49:14.214000+00:00  CREATE_COMPLETE     AWS::IAM::Role              CodeBuildRole
+2022-09-13 18:49:13.811000+00:00  CREATE_COMPLETE     AWS::IAM::Role              CodePipelineRole
+2022-09-13 18:48:55.768000+00:00  CREATE_IN_PROGRESS  AWS::S3::Bucket             PipelineBucket                                                  Resource creation Initiated
+2022-09-13 18:48:55.215000+00:00  CREATE_IN_PROGRESS  AWS::IAM::Role              CodePipelineRole                                                Resource creation Initiated
+2022-09-13 18:48:55.183000+00:00  CREATE_FAILED       AWS::S3::Bucket             SiteBucket                                                      API: s3:CreateBucket Access Denied
+2022-09-13 18:48:55.149000+00:00  CREATE_IN_PROGRESS  AWS::S3::Bucket             PipelineBucket
+2022-09-13 18:48:55.144000+00:00  CREATE_IN_PROGRESS  AWS::IAM::Role              CodeBuildRole                                                   Resource creation Initiated
+2022-09-13 18:48:54.791000+00:00  CREATE_IN_PROGRESS  AWS::IAM::Role              CodePipelineRole
+2022-09-13 18:48:54.758000+00:00  CREATE_IN_PROGRESS  AWS::S3::Bucket             SiteBucket
+2022-09-13 18:48:54.715000+00:00  CREATE_IN_PROGRESS  AWS::IAM::Role              CodeBuildRole
+2022-09-13 18:48:49.467000+00:00  CREATE_IN_PROGRESS  AWS::CloudFormation::Stack  tCaT-taskcat-example-sqs-test-98e55060eb6942e79a8e526766eddfc1  User Initiated
+*****************************************************************************
+-----------------------------------------------------------------------------
+Tested on: Tuesday, 13. September 2022 06:51PM
+-----------------------------------------------------------------------------
+
