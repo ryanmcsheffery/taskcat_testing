@@ -5,4 +5,4 @@ project:
     - us-east-2
 tests:
   sqs-test:
-    template: ./pipeline-taskcat.yml
+    template: ./sqs.yml
